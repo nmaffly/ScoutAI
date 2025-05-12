@@ -53,54 +53,59 @@ const Players = () => {
     }
 
     return (
-        <div className="players-container">
-            {/* Left Side: Player Comparison */}
-            <div className="player-comparison">
-                <h2>Compare Players</h2>
-
-                {/* <label>Player 1: </label> */}
-                <select value={player1} onChange={(e) => setPlayer1(e.target.value)}>
-                    <option value="">-- Select --</option>
-                    {players.map((player, index) => (
-                        <option key={index} value={player}>{player}</option>
-                    ))}
-                </select>
-
-                {/* <label>Player 2: </label> */}
-                <select value={player2} onChange={(e) => setPlayer2(e.target.value)}>
-                    <option value="">-- Select --</option>
-                    {players.map((player, index) => (
-                        <option key={index} value={player}>{player}</option>
-                    ))}
-                </select>
-
-                <button onClick={comparePlayers}>Compare</button>
-
-                {comparisonData && (
-                    <div>
-                        <h3>Comparison</h3>
-                        <table border="1">
-                            <thead>
-                                <tr>
-                                    <th>Stat</th>
-                                    <th>{player1}</th>
-                                    <th>{player2}</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr><td>Points Per Game (PPG)</td><td>{comparisonData.player1?.PPG ?? "N/A"}</td><td>{comparisonData.player2?.PPG ?? "N/A"}</td></tr>
-                                <tr><td>Assists Per Game (APG)</td><td>{comparisonData.player1?.APG ?? "N/A"}</td><td>{comparisonData.player2?.APG ?? "N/A"}</td></tr>
-                                <tr><td>Rebounds Per Game (RPG)</td><td>{comparisonData.player1?.RPG ?? "N/A"}</td><td>{comparisonData.player2?.RPG ?? "N/A"}</td></tr>
-                                <tr><td>Field Goal % (FG%)</td><td>{comparisonData.player1?.["FG%"] ?? "N/A"}</td><td>{comparisonData.player2?.["FG%"] ?? "N/A"}</td></tr>
-                                <tr><td>3-Point % (3P%)</td><td>{comparisonData.player1?.["3P%"] ?? "N/A"}</td><td>{comparisonData.player2?.["3P%"] ?? "N/A"}</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                )}
+        <div className="dashboard-container">
+            {/* Left Section: Player Statistics */}
+            <div className="player-stats-section">
+                <div className="player-stats-card">
+                    <h3>Player Statistics</h3>
+                    <select value={player1} onChange={(e) => setPlayer1(e.target.value)}>
+                        <option value="">Select Player</option>
+                        {players.map((player, index) => (
+                            <option key={index} value={player}>{player}</option>
+                        ))}
+                    </select>
+                    <select value={player2} onChange={(e) => setPlayer2(e.target.value)}>
+                        <option value="">Season</option>
+                        <option value="2024-2025">2024-2025</option>
+                    </select>
+                    <select>
+                        <option value="">Stat Type</option>
+                        <option value="Regular Season">Regular Season</option>
+                    </select>
+                </div>
+                <div className="season-stats-card">
+                    <h3>Season Stats</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Stat</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>PPG</td>
+                                <td>27.3</td>
+                            </tr>
+                            <tr>
+                                <td>RPG</td>
+                                <td>7.5</td>
+                            </tr>
+                            <tr>
+                                <td>APG</td>
+                                <td>8.2</td>
+                            </tr>
+                            <tr>
+                                <td>FG%</td>
+                                <td>52.3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
-            {/* Right Side: Chatbot */}
-            <div className="chatbot">
+            {/* Right Section: Chatbot */}
+            <div className="chatbot-section">
                 <Chatbot />
             </div>
         </div>

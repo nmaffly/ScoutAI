@@ -18,10 +18,10 @@ const Chart = () => {
             <ResponsiveContainer width="100%" height={500}>
                 <ScatterChart>
                     <CartesianGrid />
-                    <XAxis type="number" dataKey="mpg" name="Minutes Per Game" />
-                    <YAxis type="number" dataKey="ppg" name="Points Per Game" />
+                    <XAxis type="number" dataKey="mpg" name="Minutes Per Game" stroke="#4b0082" />
+                    <YAxis type="number" dataKey="ppg" name="Points Per Game" stroke="#4b0082" />
                     <Tooltip />
-                    <Scatter name="Players" data={data} fill="#8884d8" />
+                    <Scatter name="Players" data={data} fill="#4b0082" />
                 </ScatterChart>
             </ResponsiveContainer>
         </div>
