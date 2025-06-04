@@ -8,7 +8,6 @@ asttokens==2.4.1
 astunparse==1.6.3
 async-lru==2.0.4
 attrs==23.2.0
-awsebcli==3.20.10
 babel==2.16.0
 beautifulsoup4==4.12.3
 bleach==6.2.0
@@ -181,7 +180,6 @@ tzdata==2023.3
 uri-template==1.3.0
 urllib3==1.26.18
 virtualenv==20.25.0
-wcwidth==0.2.12
 webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
