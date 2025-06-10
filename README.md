@@ -10,10 +10,7 @@
 2. [Architecture Overview](#architecture-overview)
 3. [Tech Stack](#tech-stack)
 4. [Quick Start](#quick-start)
-5. [Project Structure](#project-structure)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgments](#acknowledgments)
+5. [Demo](#Demo)
 
 ---
 
@@ -101,29 +98,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser and start ex
 
 > **Prefer video?** Check out a 2‑min walkthrough showcasing natural‑language queries, live charts, and the overall UX.
 >
-> [![Watch the demo](docs/ScoutDemo_FINALSHOWCASE.mp4)]
+> [![Watch the demo](docs/ScoutDemo_FINALSHOWCASE.mov)]
 
-*(Replace `VIDEO_ID` with your YouTube link, or point the thumbnail to `/docs/demo.mp4` for a self‑hosted video.)*
-
----
-
-## Project Structure
-
-```
-SmartAnalytics/
-├─ docs/                 # architecture.png, demo video/thumbnail
-├─ flask-backend/        # Flask API
-│  ├─ app.py
-│  ├─ agents/            # LLM agent classes & prompts
-│  ├─ routes/
-│  ├─ ucd-basketball.db
-│  └─ requirements.txt
-├─ react-frontend/       # React SPA
-│  ├─ src/
-│  ├─ public/
-│  └─ package.json
-└─ README.md
-```
 
 ---
 
