@@ -32,7 +32,7 @@
 
 ---
 
-## Tech Stack
+## Tech Stack
 
 | Layer            | Tools & Libraries                     |
 | ---------------- | ------------------------------------- |
@@ -43,7 +43,7 @@
 
 ---
 
-## Quick Start
+## Quick Start
 
 ### Prerequisites
 
