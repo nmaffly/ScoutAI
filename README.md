@@ -1,6 +1,6 @@
-# SmartAnalytics
+# ScoutAI 🏀
 
-**SmartAnalytics** is an end‑to‑end web application that lets coaches, analysts, and hoops fanatics explore NCAA basketball data with a single click—or a single question.  It marries an interactive React front‑end with a Flask + SQLite API and sprinkles in an LLM agent pipeline so you can literally *chat* with your data.
+**ScoutAI** is an end‑to‑end web application that lets coaches, analysts, and hoops fanatics explore NCAA basketball data with a single click—or a single question.  It marries an interactive React front‑end with a Flask + SQLite API and sprinkles in an LLM agent pipeline so you can literally *chat* with your data.
 
 ---
 
@@ -98,7 +98,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser and start ex
 
 > **Prefer video?** Check out a 2‑min walkthrough showcasing natural‑language queries, live charts, and the overall UX.
 >
-> [![Watch the demo](docs/ScoutDemo_FINALSHOWCASE.mov)]
+[![Watch the demo](docs/scoutAI_demo_thumbnail.png)](https://youtu.be/13Nr5UfkLH4)
 
 
 ---
