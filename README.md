@@ -30,7 +30,7 @@
 
 ## Architecture Overview
 
-![LLM agent architecture](docs/llm_architecture.png)
+![LLM agent architecture](docs/LLM_flowchart.png)
 *Figure 1 – The multi‑agent flow that powers natural‑language queries. A **Supervisor Agent** chooses between direct answers or database queries, which are delegated down the chain and returned as a polished response.*
 
 ---
@@ -101,7 +101,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser and start ex
 
 > **Prefer video?** Check out a 2‑min walkthrough showcasing natural‑language queries, live charts, and the overall UX.
 >
-> [![Watch the demo](docs/demo.mp4)]
+> [![Watch the demo](docs/ScoutDemo_FINALSHOWCASE.mp4)]
 
 *(Replace `VIDEO_ID` with your YouTube link, or point the thumbnail to `/docs/demo.mp4` for a self‑hosted video.)*
 
