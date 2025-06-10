@@ -96,7 +96,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser and start ex
 
 ## Demo
 
-> **Prefer video?** Check out a 2‑min walkthrough showcasing natural‑language queries, live charts, and the overall UX.
+> Check out a 2‑min walkthrough showcasing natural‑language queries, live charts, and the overall UX.
 >
 [![Watch the demo](docs/scoutAI_demo_thumbnail.png)](https://youtu.be/13Nr5UfkLH4)
 
@@ -104,4 +104,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser and start ex
 ---
 
 > Built with 💙 at UC Davis to make hoops analytics less about scraping CSVs and more about asking good questions.
-> Looking for more sports‑analytics goodness?  Check out additional projects at Aggie Sports Analytics → https://aggiesportsanalytics.com
+> Looking for more cool sports‑analytics projects? Check out more at Aggie Sports Analytics → https://aggiesportsanalytics.com
